@@ -1,0 +1,48 @@
+:root {
+    --ModerateViolet:	#7541c8;
+    --veryDkGrayishBlue: #48556a;
+    --veryDkBlackishBlue:	#19212e;
+    --white: #FFF;
+    --lightGray: 	#cfcfcf;
+    --lightGrayishBlue:	#ecf2f8;
+}
+//font-family: 'Barlow Semi Condensed', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: var(--lightGray);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.card {
+  padding: 25px;
+  outline: 5px dotted red;
+}
+.card h3 {
+  
+}
+.card h4 {
+font-weight: 200;
+}
+
+.card_daniel {
+  background-color:var(--ModerateViolet);
+  
+}
+.card_jonathan {
+  background-color: var(--veryDkGrayishBlue);
+}
+.card_jeanette {
+  background-color: var(--#FFF);
+}
+.card_kira {
+  background-color: var(--veryDkBlackishBlue);
+}
+.card_patrick {
+  background-color: var(--#FFF);
