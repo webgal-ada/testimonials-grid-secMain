@@ -15,11 +15,12 @@ html {
   background-color: var(--lightGrayishBlue);
 }
 body {
+  height: 90vh;
   margin: 0 auto;
 }
 section.grid {
   display: grid;
-  margin: 22% 0 47px;
+  margin: 12% 0 47px;
   gap: 20px;
 }
 .cards {
