@@ -19,25 +19,26 @@ body {
 }
 section.grid {
   display: grid;
-  margin: 15% auto;
+  margin: 22% 0 47px;
   gap: 20px;
 }
 .cards {
   font-family: "Barlow Semi Condensed", sans-serif;
   border-radius: 20px;
-  color: var(--lightGray);
   padding: 28px 32px 18px;
   overflow: auto;
 }
 .featured {
   color: var(--veryDkGrayishBlue);
 }
-
-.cards p {
-  font-size: 1.1;
-  line-height: 1.8em;
+h2.featured_blob {
+  color: var(--veryDkBlackishBlue);
 }
-.cards h2 {
+.cards p {
+  font-weight: 300;
+  line-height: 1.4em;
+}
+.cards {
   color: var(--white);
   font-size: 1.4em;
   font-weight: 600;
@@ -76,11 +77,11 @@ h4 {
 }
 .card_kira {
   background-color: var(--white);
-  box-shadow: 4px 4px 8px #aaa;
+  box-shadow: 70px 46px 100px #aaa;
 }
 .card_jeanette {
   background-color: white;
-  box-shadow: 4px 4px 8px #aaa;
+  box-shadow: 70px 46px 100px #aaa;
 }
 .card_patrick {
   background-color: var(--veryDkBlackishBlue);
