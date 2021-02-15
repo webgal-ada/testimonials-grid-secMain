@@ -32,6 +32,11 @@ section.grid {
   font-family: "Barlow Semi Condensed", sans-serif;
   border-radius: 20px;
   padding: 28px 32px 18px;
+  color: var(--white);
+  font-size: 0.74em;
+  font-weight: 600;
+  word-spacing: 2px;
+
   overflow: auto;
 }
 .featured {
@@ -44,12 +49,12 @@ h2.featured_blob {
   font-weight: 300;
   line-height: 1.4em;
 }
-.cards {
-  color: var(--white);
-  font-size: 0.84em;
-  font-weight: 600;
-  word-spacing: 2px;
-}
+// .cards {
+//   color: var(--white);
+//   font-size: 0.74em;
+//   font-weight: 600;
+//   word-spacing: 2px;
+// }
 .cards img {
   display: inline-block;
   border-radius: 50px;
@@ -59,7 +64,7 @@ h2.featured_blob {
   display: inline-block;
   position: relative;
   top: -13px;
-  margin-left: 16px;
+  margin: 0 10px 0 4px;
 }
 h3 {
   font-size: 0.75em;
