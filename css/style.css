@@ -15,16 +15,17 @@ html {
   background-color: var(--lightGrayishBlue);
 }
 body {
-  // height: 90vh;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 main {
-  // height: 100vh;
+  height: 700px;
 }
 section.grid {
   display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-row: 1fr, 1fr;
+  grid-template-columns: 2fr,1fr,1fr:
+  grid-template-row: 200px, 200px;
   margin: 12% 0 47px;
   gap: 20px;
 }
@@ -33,11 +34,9 @@ section.grid {
   border-radius: 20px;
   padding: 28px 32px 18px;
   color: var(--white);
-  font-size: 0.74em;
-  font-weight: 600;
-  word-spacing: 2px;
-
-  overflow: auto;
+  font-size: 0.8em;
+  font-weight: 500;
+  // height: 300px;
 }
 .featured {
   color: var(--veryDkGrayishBlue);
@@ -48,13 +47,9 @@ h2.featured_blob {
 .cards p {
   font-weight: 300;
   line-height: 1.4em;
+  font-size: 0.95em;
 }
-// .cards {
-//   color: var(--white);
-//   font-size: 0.74em;
-//   font-weight: 600;
-//   word-spacing: 2px;
-// }
+
 .cards img {
   display: inline-block;
   border-radius: 50px;
@@ -81,7 +76,6 @@ h4 {
   background-image: url(../images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: 81% 1px;
-  background-size: 35%;
 }
 .card_jonathan {
   background-color: var(--veryDkGrayishBlue);
@@ -89,6 +83,7 @@ h4 {
 .card_kira {
   background-color: var(--white);
   box-shadow: 70px 46px 100px #aaa;
+  width: 200px;
 }
 .card_jeanette {
   background-color: white;
@@ -97,9 +92,14 @@ h4 {
 .card_patrick {
   background-color: var(--veryDkBlackishBlue);
 }
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 417px) {
   body {
     width: 80%;
+  }
+}
+@media screen and (min-width: 680px) {
+  main {
+    max-width: 107%;
   }
   .cardA {
     grid-column: 1 / 3;
